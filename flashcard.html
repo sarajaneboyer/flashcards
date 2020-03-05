@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Flashcard App</title>
+ <link href="styles.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <div id="title-box"> Create Your Own Deck of Flashcards!</div>
+
+    <div class="row">
+      <div id="column" class="column";>
+
+        <p><div id="q1" >Types of Variables in JavaScript<br></div>
+          <div id="a1" class="hide"><ul>
+            <li>boolean</li>
+            <li>undefined</li>
+            <li>string</li>
+            <li>number</li>
+            <li>null</li>
+            <li>object</li>
+            <li>symbol</li>
+          </ul></div>
+        </p>
+
+      </div> <!-- ending div Card1 -->
+
+      <br>
+
+      <div class="column">
+        
+        <p><div id="q2">Second Card</div>
+          <div id="a2" class="hide"><ul>
+          <li>Some info</li>
+          <li>Some info</li>
+        </ul></div>
+      </p>
+      </div><!-- ending div Card2 -->
+      
+      <br>
+
+      <div class="column">
+        <p><div id="q3">Third Card<br></div>
+        <div id="a3" class="hide"><ul>
+          <li>Some info</li>
+          <li>Some info</li>
+        </ul></div>
+      </p>
+      </div><!-- ending div Card3-->
+
+    </div>  <!-- ending div Container -->
+    
+    <br>
+    
+    <div id="buttons">
+      <button id="flip-button1">Flip Card 1</button>
+      <button id="flip-button2">Flip Card 2</button>
+      <button id="flip-button3">Flip Card 3</button><br />
+      <button id="previous-button">Previous Card</button>
+      <button id="next-button">Next Card</button><br>
+      <button id="edit-button">Edit Card</button>
+      <button id="delete-button">Delete Card</button>
+    </div><hr />
+
+    <div id="form">
+      <form id="newCard">
+        <input id="frontOfCard" type="text" placeholder="Front of Card" autofocus><br>
+        <input id="backOfCard" type="text" placeholder="Back of Card"><br>
+        <input id="submit" type="button" value="Add A New Card" onclick="newCard()">
+      </form>
+    </div>
+
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

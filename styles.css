@@ -1,0 +1,54 @@
+#title-box {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  border-radius: 25px;
+  max-width: 400px;
+  display: inline-block
+}
+
+.hide {
+  display: none;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* #Card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+} */
+
+/* #Card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px; 
+}
+
+#Card3 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+} */
