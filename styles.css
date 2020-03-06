@@ -1,7 +1,7 @@
 
 
 
-.flex-container {
+.flex-container1{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -10,4 +10,20 @@
 
 .hide {
   display: none;
+}
+
+
+.card-area {
+  justify-content: space-evenly;
+  box-shadow: darkgray 10px; 
+
+}
+
+.card1 {
+  justify-content: space-evenly;
+  background-color: teal;
+}
+
+#card1 {
+  box-shadow: 5px 5px 2px grey;
 }
